@@ -1,6 +1,6 @@
 # Distributed Database Systems TP
 
-In this repository, we will try to solve the assignments of an ENSIAS module that tackles distributed databases. The lab will be created using Docker and we will have three oracle databases running on the same hose. We will use the express version because this is just for educational purposes and we don't require maximal entreprise performance.
+In this repository, we will try to solve the assignments of an ENSIAS module that tackles distributed databases. The lab will be created using Docker and we will have three oracle databases running on the same host. We will use the express version because this is just for educational purposes and we don't require maximal entreprise performance.
 
 ## Setting up the environment
 
@@ -9,12 +9,17 @@ In this repository, we will try to solve the assignments of an ENSIAS module tha
 ### 2. Clone this repository and then navigate into it
 
     git clone https://github.com/Ignema/BDD-R.git
+    cd BDD-R
 
-### 3. Create the cluster
+### 3. Pull the Oracle XE image from Docker Hub
+
+    docker pull oracleinanutshell/oracle-xe-11g
+
+### 4. Create the cluster
 
     docker-compose up
 
-### 4. Complete the TP1 with a script
+### 5. Complete the TP1 with a script
 
 #### windows
 
