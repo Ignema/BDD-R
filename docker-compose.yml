@@ -1,0 +1,23 @@
+version: "3"
+services:
+  db:
+    container_name: db
+    build:
+      context: .
+      dockerfile: ./docker/db/Dockerfile 
+    ports:
+      - 1521:1521
+  db1:
+    container_name: db1
+    build:
+      context: .
+      dockerfile: ./docker/db1/Dockerfile 
+    ports:
+      - 1522:1521
+  db2:
+    container_name: db2
+    build:
+      context: .
+      dockerfile: ./docker/db2/Dockerfile 
+    ports:
+      - 1523:1521
