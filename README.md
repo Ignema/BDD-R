@@ -2,7 +2,7 @@
 
 In this repository, we will try to solve the assignments of an ENSIAS module that tackles distributed databases. The lab will be created using Docker and we will have three oracle databases running on the same host. We will use the express version because this is just for educational purposes and we don't require maximal entreprise performance.
 
-I made a video explaining my thought process making this project [here](https://youtu.be/kx9Q3PFNnlo).
+I made a video explaining my thought process making this project [here](https://youtu.be/dUPKK7q4B1U).
 
 ## Setting up the environment
 
